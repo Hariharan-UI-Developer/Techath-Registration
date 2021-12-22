@@ -1,0 +1,32 @@
+<header class="header">
+  <div>
+    <p class="details-text">Details</p>
+    <span>
+      <button mat-button mat-raised-button
+              (click)="openDialog()"
+              class="add-user-button"
+              >Add USER
+      </button>
+    </span>
+  </div>
+</header>
+
+<table class="table">
+  <tr class="table-tr">
+    <th class="details-th">Details</th>
+    <th>Address</th>
+    <th></th>
+    <th>State</th>
+    <th>Created on</th>
+  </tr>
+  <tr *ngFor="let a of registrationDetails">
+      <th>
+        <tr class="table-fontWeight-normal table-fontsize">Name</tr>
+        <tr class="table-fontWeight-normal">{{a.name}}</tr>
+      </th>
+      <th class="table-fontWeight-normal">{{a.address1}},{{a.address2}}</th>
+      <th class="table-fontWeight-normal">{{a.district}}</th>
+      <th class="table-fontWeight-normal">{{a.state}}</th>
+      <th class="table-fontWeight-normal">{{a.pincode}}</th>
+  </tr>
+</table>

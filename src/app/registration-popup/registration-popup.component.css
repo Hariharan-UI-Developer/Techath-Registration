@@ -1,0 +1,38 @@
+.title {
+  border-bottom: 1px solid #000000;
+}
+
+.div-container {
+  border-bottom: 0.5px solid #d0c7b4;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: block;
+  width: 100%;
+}
+
+.label-span {
+  display: inline-block;
+  width: 35%;
+}
+
+.input-span {
+  display: inline;
+}
+
+.input {
+  width: 60%;
+}
+
+.cancel-button {
+  color: #3880ff;
+  border: 1px solid #bdb6b6;
+}
+
+.save-button {
+  color: #ffffff;
+  background-color: #3880ff;
+  /* border: none; */
+  margin-left: 10%;
+  border: 0px;
+  border-radius: 7%;
+}
